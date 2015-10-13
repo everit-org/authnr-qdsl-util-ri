@@ -29,9 +29,9 @@ import com.mysema.query.types.expr.BooleanExpression;
  */
 public class AuthnrQdslUtilImpl implements AuthnrQdslUtil {
 
-  private AuthenticationContext authenticationContext;
+  private final AuthenticationContext authenticationContext;
 
-  private AuthorizationQdslUtil authorizationQdslUtil;
+  private final AuthorizationQdslUtil authorizationQdslUtil;
 
   /**
    * Constructor.
