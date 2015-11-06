@@ -21,8 +21,8 @@ import org.everit.authentication.context.AuthenticationContext;
 import org.everit.authnr.qdsl.util.AuthnrQdslUtil;
 import org.everit.authorization.qdsl.util.AuthorizationQdslUtil;
 
-import com.mysema.query.types.Expression;
-import com.mysema.query.types.expr.BooleanExpression;
+import com.querydsl.core.types.Expression;
+import com.querydsl.core.types.dsl.BooleanExpression;
 
 /**
  * Implementation of {@link AuthnrQdslUtil} interface.
